@@ -1,0 +1,156 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Navbar*/
+.navalert-container{
+    background: #090808;
+}
+
+.navbar .navbar-toggler{
+    border:none;
+}
+
+.navbar .navbar-brand{
+    font-weight: bold;
+}
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*.alert-container{*/
+/*    animation-name: fadeout;*/
+/*    animation-duration: 2s;*/
+/*    animation-timing-function: ease-in-out;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-direction: alternate;*/
+/*}*/
+
+
+
+/*@keyframes fadeout{*/
+/*    from{*/
+/*        opacity: 0;*/
+/*    }*/
+/*    to{*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
+
+.sitewide-alert{
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 10px;
+    background: #b3ff8d;
+    border: none;
+}
+
+.callout-container{
+    height: 100vh;
+    
+    background: linear-gradient( to bottom,
+                     rgba(0, 0, 0, 0.3), 
+                    rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+/*Quotes*/
+
+.quotes-container{
+    text-align: center;
+}
+
+.quote-person{
+    color: #444a50;
+    font-weight: bold;
+}
+
+.page-header{
+    text-align: center;
+}
+
+.block-divider-short{
+    border-top: 5px solid #343a40;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i{
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+
+/*Jumbotron*/
+.jumbotron{
+    background:transparent;
+}
+
+.callout-header{
+    color: #ffffff;
+}
+
+.callout p{
+    color: #e1e0dd;
+}
+
+.block-divider{
+    border-top: 5px solid #F47C20;
+    width: 125px;
+}
+
+.btn--Signup{
+    border-radius: 23px;
+    width: 155px;
+    background-color: #F47C20;
+    border-color: #F47C20;
+    color: #fff;
+}
+
+.btn--Signup:hover{
+    border-radius: 23px;
+    width: 155px;
+    background-color: #cd5d07;
+    border-color: #cd5d07;
+    color: #fff;
+}
+
+
+/*Features*/
+.featuresbg{
+    background: #ffd7b9;
+}
+
+.feature .btn{
+    font-weight: bold;
+    border-radius: 15px;
+    min-width: 100px;
+}
+
+.feature .btn:hover{
+    color: #e6aa7d;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
